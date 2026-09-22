@@ -1,0 +1,34 @@
+﻿{
+    "created_at":  "2026-09-22T23:58:31.6790370+08:00",
+    "backup_dir":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\z-notes\\boomerang-results\\20260922_backup_before-16-17-18-rerun-notes",
+    "reason":  "Archived boomerang result notes before the corrected-objective 16/17/18-round reruns replace the recorded results",
+    "files":  [
+                  {
+                      "file":  "Splight-rk-16-boomerang.md",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\z-notes\\boomerang-results\\Splight-rk-16-boomerang.md",
+                      "backup":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\z-notes\\boomerang-results\\20260922_backup_before-16-17-18-rerun-notes\\Splight-rk-16-boomerang.md",
+                      "bytes":  6068,
+                      "sha256":  "08118A5E183C2A5DCDCDBEA9BC76E6B7A4D42D6B96C932B2ADB42373C67B014C",
+                      "verified":  true,
+                      "source_last_write":  "2026-09-20 15:39:12"
+                  },
+                  {
+                      "file":  "Splight-rk-17-boomerang.md",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\z-notes\\boomerang-results\\Splight-rk-17-boomerang.md",
+                      "backup":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\z-notes\\boomerang-results\\20260922_backup_before-16-17-18-rerun-notes\\Splight-rk-17-boomerang.md",
+                      "bytes":  6995,
+                      "sha256":  "9F5260BFB4E9C5CD6D59BA2F768C9A3FF2C7BDE1D2EA87E9D945AC05497F817E",
+                      "verified":  true,
+                      "source_last_write":  "2026-09-20 18:59:08"
+                  },
+                  {
+                      "file":  "Splight-rk-18-boomerang.md",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\z-notes\\boomerang-results\\Splight-rk-18-boomerang.md",
+                      "backup":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\z-notes\\boomerang-results\\20260922_backup_before-16-17-18-rerun-notes\\Splight-rk-18-boomerang.md",
+                      "bytes":  5750,
+                      "sha256":  "A2F32A4779C9EDB206D5434854E03FA815D442C922FBCD11462458A22FCB4377",
+                      "verified":  true,
+                      "source_last_write":  "2026-09-21 13:20:56"
+                  }
+              ]
+}
