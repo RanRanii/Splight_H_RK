@@ -15,6 +15,7 @@ tools/
 |- TOOLS_README.md
 |- rkdiff_cli.py
 |- rk_exact_verify.py
+|- rk_bm_exact_verify.py
 |- maintenance/
 |  |- refresh_result_round_ks.py
 |  `- update_743_key_schedule_display.py
@@ -28,6 +29,7 @@ tools/
 | `TOOLS_README.md` | `tools/` 全部文件、目录和使用方法说明 | 否 | 否 | 否 |
 | `rkdiff_cli.py` | 独立搜索 N 轮最小 weight 相关密钥差分路径 | 是 | 否 | 只写指定输出目录 |
 | `rk_exact_verify.py` | 用两条真实 Splight 执行验证完整 concrete trail | 否 | 是 | 否 |
+| `rk_bm_exact_verify.py` | 用四条真实 Splight 执行验证完整 related-key Boomerang 数据四元组 | 否 | 是 | 只写 `<case>/bm_exact_verify/` |
 | `maintenance/refresh_result_round_ks.py` | 批量修复已有结果的 `KS` 列和十六进制大小写，可选迁移旧 case 目录 | 否 | 否 | 是，批量覆盖 |
 | `maintenance/update_743_key_schedule_display.py` | 为已有 `7-4-3` 结果生成详细密钥调度差分表 | 否 | 否 | 是，仅 `7-4-3` |
 | `__pycache__/` | Python 导入缓存 | 否 | 否 | 否 |
@@ -174,6 +176,56 @@ python -m pip install z3-solver
 
 该文件没有命令行 `main()`，直接执行不会进行验证。应通过 Python 导入调用，或由 `rkboom.py --exact-verify` 调用。验证结果以字典返回，本模块不主动写入结果文件。
 
+## `rk_bm_exact_verify.py`
+
+### 作用
+
+这是完整 related-key Boomerang 的精确四元组验证器，独立于 `rk_exact_verify.py`。它建立四条真实完整加密执行：
+
+```text
+00: (P00, K00)
+10: (P10, K00 XOR DeltaK)
+01: (P01, K00 XOR NablaK)
+11: (P11, K00 XOR DeltaK XOR NablaK)
+```
+
+模型同时固定两条 upper 差分路径 `00/10`、`01/11`，两条 lower 差分路径 `00/01`、`10/11`，并检查输入 Delta 与输出 Nabla 的闭合关系。若结果目录中存在 `truncated_XXXX/truncated_path.json`，还会固定 upper/lower 在 middle 的完整零/非零活动模式，并检查 `middle_part` 是否与这两个活动模式一致。
+
+- `SAT` 且 `concrete_replay=PASS`：存在一个真实的四密钥/四数据 quartet，满足已编码的完整区分器；
+- `UNSAT`：当前这组 upper concrete trail、middle 截断路径和 lower concrete trail 不能共同组成一个真实 quartet；
+- `UNKNOWN`：超时或资源限制，不能作为 `UNSAT` 使用。
+
+该结论只证明可实现性，不计算、估计或证明 Boomerang 概率。
+
+### 使用方法
+
+在一个已经完成 `--exact-verify` 的结果目录上执行：
+
+```powershell
+python tools/rk_bm_exact_verify.py --result-dir .\results\2-3-2_636 --timeout-ms 600000
+```
+
+默认读取：
+
+```text
+exact_summary.json
+truncated_XXXX/truncated_path.json
+truncated_XXXX/upper/accepted.json
+truncated_XXXX/lower/accepted.json
+```
+
+默认输出：
+
+```text
+results/<case>/bm_exact_verify/
+|- summary.json
+|- witness.json                 # 仅 SAT 时生成
+|- witness.md
+`- terminal_print.txt
+```
+
+可用 `--truncated-id` 选择具体的已接受路径，使用 `--output-dir` 改写输出位置；`--return-all-diffs` 会将四组 pair registry 的所有实际差分写入 witness。
+
 ## `maintenance/refresh_result_round_ks.py`
 
 ### 作用
@@ -293,6 +345,11 @@ rkboom.py --exact-verify
     |    `- SAT / UNSAT / UNKNOWN + concrete replay
     `- rkdiff.py
          `- UNSAT 时添加 full-trail no-good
+
+tools/rk_bm_exact_verify.py --result-dir <case>
+    |- loads accepted upper/lower witnesses + truncated middle path
+    |- four real full-cipher executions and four related master keys
+    `- SAT / UNSAT / UNKNOWN + concrete four-branch replay
 
 tools/rkdiff_cli.py
     `- 直接调用 rkdiff.py，不经过 rkboom.py

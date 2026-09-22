@@ -212,6 +212,7 @@ class RKTruncDiff:
         terms = []
         for r in range(self.nrounds):
             terms.extend(self.active_sbox_vars(r))
+            terms.extend(self.key_sbox_vars(self.round_offset + r))
         return " + ".join(terms) if terms else "0"
 
     def exclude_trivial_solution(self):

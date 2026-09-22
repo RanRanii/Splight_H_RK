@@ -259,11 +259,45 @@ def mermaid_distinguisher(result):
     ])
 
 
+def probability_estimate_lines(result):
+    """Return the same theoretical probability summary printed by rkboom.py."""
+    upper_effect = float(result.get("diff_effect_upper_log2", 0))
+    lower_effect = float(result.get("diff_effect_lower_log2", 0))
+    common_active = float((result.get("middle_part") or {}).get("as", 0))
+    total_weight = 2.0 * upper_effect + 2.0 * lower_effect
+    lower_bound = total_weight - 2.5 * common_active
+    upper_bound = total_weight - 2.0 * common_active
+
+    lines = []
+    if upper_effect != 0:
+        lines.append(
+            f"differential effect of the upper trail: 2^({upper_effect:.2f})"
+        )
+    if lower_effect != 0:
+        lines.append(
+            f"differential effect of the lower trail: 2^({lower_effect:.2f})"
+        )
+    lines.extend([
+        "Total probability = p^2*q^2*r = "
+        f"2^({2.0 * upper_effect:.2f}) x 2^({2.0 * lower_effect:.2f}) x r",
+        f"2^({lower_bound:.2f}) <= Total probability <= 2^({upper_bound:.2f})",
+        "To compute the accurate value of total probability, r should be evaluated "
+        "experimentally or using the (F)BCT framework",
+    ])
+    return lines
+
+
 def markdown_distinguisher(result):
     params = result["parameters"]
     r0, rm, r1 = params["r0"], params["rm"], params["r1"]
     lines = [
         f"# Splight-RK 区分器 r0={r0}, rm={rm}, r1={r1}",
+        "",
+        "## Boomerang 概率预估",
+        "",
+        "```text",
+        *probability_estimate_lines(result),
+        "```",
         "",
         mermaid_distinguisher(result),
         "",

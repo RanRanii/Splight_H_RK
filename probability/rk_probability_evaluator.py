@@ -969,7 +969,12 @@ def run_rk_probability_checks(result, seed=None):
     }
 
 
-def save_rk_probability_checks(result, output_dir, seed=None):
+def save_rk_probability_checks(
+    result,
+    output_dir,
+    seed=None,
+    text_filename="rk_probability_tests.txt",
+):
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     json_dir = output_dir / ".json"
@@ -980,7 +985,7 @@ def save_rk_probability_checks(result, output_dir, seed=None):
         encoding="utf-8",
     )
     log_text = format_rk_probability_log(probability_result)
-    (output_dir / "rk_probability_tests.txt").write_text(log_text, encoding="utf-8")
+    (output_dir / text_filename).write_text(log_text, encoding="utf-8")
     em = probability_result["rk_em_boomerang"]
     keydiff_outputs = {
         "delta_keydiff_forward": em.get("delta_key_milp"),

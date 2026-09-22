@@ -15,6 +15,7 @@ sys.path.insert(0, str(IMPLEMENT_DIR))
 from enc import SplightParams, key_schedule, nibbles_to_hex  # noqa: E402
 from rkboom import (  # noqa: E402
     _build_argument_parser,
+    _InstantiationLpCleaner,
     _tee_terminal_output,
     loadparameters,
     result_case_dir_name,
@@ -453,6 +454,70 @@ class _FakePreflightDiff:
         if self.feasible:
             return {"status": "OPTIMAL", "trail": {}, "weight": 1.0}
         return {"status": "INFEASIBLE", "trail": None, "weight": None}
+
+
+def test_instantiation_lp_cleaner_only_deletes_registered_current_run_files(tmp_path):
+    root = tmp_path / "boomerang"
+    root.mkdir()
+    historical = root / "splight_h_rkdiff_100_1000.lp"
+    historical.write_text("historical", encoding="utf-8")
+    current = root / "splight_h_rkdiff_200_2000.lp"
+    current.write_text("current", encoding="utf-8")
+    outside = tmp_path / "splight_h_rkdiff_300_3000.lp"
+    outside.write_text("outside", encoding="utf-8")
+
+    cleaner = _InstantiationLpCleaner(root=root)
+    historical_diff = type("Diff", (), {"lp_file_name": str(historical), "milp_model": None})()
+    current_diff = type("Diff", (), {"lp_file_name": str(current), "milp_model": None})()
+    outside_diff = type("Diff", (), {"lp_file_name": str(outside), "milp_model": None})()
+
+    assert cleaner.register(current_diff) is True
+    assert cleaner.register(outside_diff) is False
+    assert cleaner.delete(historical_diff, "must_not_touch_history") is False
+    assert cleaner.delete(current_diff, "definitively_rejected") is True
+
+    assert historical.exists()
+    assert outside.exists()
+    assert not current.exists()
+    snapshot = cleaner.snapshot()
+    assert snapshot["registered_files"] == 1
+    assert snapshot["deleted_files"] == 1
+    assert snapshot["deleted_bytes"] == len("current")
+    assert snapshot["refused_files"] == 1
+
+
+def test_raw_rejected_candidate_deletes_both_new_instantiation_lps(tmp_path):
+    root = tmp_path / "boomerang"
+    root.mkdir()
+    historical = root / "splight_h_rkdiff_999_9999.lp"
+    historical.write_text("historical", encoding="utf-8")
+    cleaner = _InstantiationLpCleaner(root=root)
+    created_paths = []
+
+    def builder(bm, side, *args, **kwargs):
+        index = len(created_paths) + 1
+        path = root / f"splight_h_rkdiff_123_{index}.lp"
+        path.write_text(side, encoding="utf-8")
+        created_paths.append(path)
+        diff = _FakePreflightDiff(feasible=(side == "upper"))
+        diff.lp_file_name = str(path)
+        diff.milp_model = None
+        return diff, []
+
+    bm = _FakeTruncatedBoomerang(path_count=1)
+    result = run_exact_two_level_search(
+        bm,
+        {"exact_verify_timeout_ms": 1, "exact_path_timeout_sec": None},
+        str(tmp_path / "results"),
+        diff_builder=builder,
+        lp_cleaner=cleaner,
+    )
+
+    assert result["result"] == "NO_EXACT_REALIZABLE_TRAIL"
+    assert result["instantiation_lp_cleanup"]["deleted_files"] == 2
+    assert result["instantiation_lp_cleanup"]["retained_registered_files"] == 0
+    assert historical.exists()
+    assert all(not path.exists() for path in created_paths)
 
 
 def _fake_diff_builder(*args, **kwargs):

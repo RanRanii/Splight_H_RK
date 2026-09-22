@@ -49,6 +49,114 @@ def _effective_time_limit(deadline, local_limit=None):
     return float(local_limit) if remaining is None else min(float(local_limit), remaining)
 
 
+class _InstantiationLpCleaner:
+    """Delete only rejected RKDiff LP files created and registered in this run."""
+
+    _LP_NAME = re.compile(r"splight_h_rkdiff_\d+_\d+\.lp")
+
+    def __init__(self, root=None):
+        default_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tmp", "boomerang")
+        self.root = os.path.realpath(root or default_root)
+        self._owned = {}
+        self._stats = {
+            "policy": "delete-definitively-rejected-current-run-only",
+            "registered_files": 0,
+            "deleted_files": 0,
+            "deleted_bytes": 0,
+            "refused_files": 0,
+            "delete_failures": 0,
+        }
+
+    def _resolve_safe_path(self, diff):
+        raw_path = getattr(diff, "lp_file_name", None)
+        if not raw_path:
+            return None
+        path = os.path.realpath(raw_path)
+        try:
+            inside_root = os.path.commonpath((self.root, path)) == self.root
+        except ValueError:
+            inside_root = False
+        if not inside_root or self._LP_NAME.fullmatch(os.path.basename(path)) is None:
+            return None
+        return path
+
+    @staticmethod
+    def _file_identity(stat_result):
+        return (
+            stat_result.st_dev,
+            stat_result.st_ino,
+            stat_result.st_size,
+            stat_result.st_mtime_ns,
+        )
+
+    def register(self, diff):
+        """Register one newly created LP; unregistered historical files stay untouchable."""
+        path = self._resolve_safe_path(diff)
+        if path is None:
+            if getattr(diff, "lp_file_name", None):
+                self._stats["refused_files"] += 1
+                print(f"LP cleanup registration refused: {diff.lp_file_name}")
+            return False
+        try:
+            stat_result = os.stat(path)
+        except OSError as exc:
+            self._stats["refused_files"] += 1
+            print(f"LP cleanup registration failed: path={path} error={exc}")
+            return False
+        self._owned[path] = self._file_identity(stat_result)
+        self._stats["registered_files"] += 1
+        return True
+
+    def delete(self, diff, reason):
+        """Delete a registered LP if it is still the exact file that was registered."""
+        path = self._resolve_safe_path(diff)
+        if path is None or path not in self._owned:
+            return False
+        registered_identity = self._owned[path]
+        try:
+            current_stat = os.stat(path)
+            if self._file_identity(current_stat) != registered_identity:
+                self._stats["refused_files"] += 1
+                print(f"LP cleanup refused changed file: path={path} reason={reason}")
+                return False
+
+            model = getattr(diff, "milp_model", None)
+            dispose = getattr(model, "dispose", None)
+            if callable(dispose):
+                dispose()
+            if hasattr(diff, "milp_model"):
+                diff.milp_model = None
+
+            os.remove(path)
+            self._owned.pop(path, None)
+            self._stats["deleted_files"] += 1
+            self._stats["deleted_bytes"] += current_stat.st_size
+            return True
+        except FileNotFoundError:
+            self._owned.pop(path, None)
+            return False
+        except OSError as exc:
+            self._stats["delete_failures"] += 1
+            print(f"LP cleanup warning: path={path} reason={reason} error={exc}")
+            return False
+
+    def delete_many(self, diffs, reason):
+        deleted_before = self._stats["deleted_files"]
+        bytes_before = self._stats["deleted_bytes"]
+        for diff in diffs:
+            self.delete(diff, reason)
+        return {
+            "deleted_files": self._stats["deleted_files"] - deleted_before,
+            "deleted_bytes": self._stats["deleted_bytes"] - bytes_before,
+        }
+
+    def snapshot(self):
+        return {
+            **self._stats,
+            "retained_registered_files": len(self._owned),
+        }
+
+
 class _TeeTextStream:
     """Mirror text writes to the original terminal stream and one log file."""
 
@@ -783,6 +891,7 @@ def run_exact_two_level_search(
     preflight_solver=None,
     global_deadline=None,
     solve_started=None,
+    lp_cleaner=None,
 ):
     """Outer truncated enumeration plus inner concrete exact refinement."""
     _reset_exact_result_dirs(results_dir)
@@ -802,6 +911,21 @@ def run_exact_two_level_search(
     timeout_ms = params.get("exact_verify_timeout_ms", 300_000)
     path_timeout_sec = params.get("exact_path_timeout_sec")
     default_preflight_solver = preflight_solver is None
+    lp_cleaner = lp_cleaner or _InstantiationLpCleaner()
+
+    def finish_result(payload):
+        cleanup = lp_cleaner.snapshot()
+        payload["instantiation_lp_cleanup"] = cleanup
+        print(
+            "Instantiation LP cleanup: "
+            f"registered={cleanup['registered_files']} "
+            f"deleted={cleanup['deleted_files']} "
+            f"deleted_bytes={cleanup['deleted_bytes']} "
+            f"retained={cleanup['retained_registered_files']} "
+            f"refused={cleanup['refused_files']} "
+            f"failures={cleanup['delete_failures']}"
+        )
+        return payload
 
     def solve_preflight(diff):
         if not default_preflight_solver:
@@ -873,7 +997,7 @@ def run_exact_two_level_search(
                 raw_rejected_before_results=raw_rejected,
                 raw_unresolved_before_results=raw_unresolved,
             )
-            return {
+            return finish_result({
                 "result": global_result,
                 "upper_trail": None,
                 "lower_trail": None,
@@ -887,7 +1011,7 @@ def run_exact_two_level_search(
                     "truncated_search_seconds": perf_counter() - truncated_started,
                     "total_solving_seconds": perf_counter() - solve_started,
                 },
-            }
+            })
 
         raw_candidate_id += 1
         snapshot = bm.extract_current_truncated_path()
@@ -907,6 +1031,8 @@ def run_exact_two_level_search(
             bm, "lower", params, upper_trail, lower_trail
         )
         lower_build_seconds = perf_counter() - lower_build_started
+        lp_cleaner.register(upper_diff)
+        lp_cleaner.register(lower_diff)
         upper_first = solve_preflight(upper_diff)
         lower_first = solve_preflight(lower_diff)
         upper_instantiation_seconds = (
@@ -916,7 +1042,7 @@ def run_exact_two_level_search(
             lower_build_seconds + float(lower_first.get("elapsed_seconds", 0.0))
         )
         if "GLOBAL_TIME_LIMIT" in (upper_first["status"], lower_first["status"]):
-            return {
+            return finish_result({
                 "result": "GLOBAL_TIME_LIMIT",
                 "upper_trail": None,
                 "lower_trail": None,
@@ -930,27 +1056,36 @@ def run_exact_two_level_search(
                     "lower_instantiation_seconds": lower_instantiation_seconds,
                     "total_solving_seconds": perf_counter() - solve_started,
                 },
-            }
+            })
         if upper_first["trail"] is None or lower_first["trail"] is None:
             statuses = {
                 "upper": upper_first["status"],
                 "lower": lower_first["status"],
             }
-            if any(
+            unresolved = any(
                 status not in ("INFEASIBLE", "INF_OR_UNBD")
                 for side, status in statuses.items()
                 if (upper_first if side == "upper" else lower_first)["trail"] is None
-            ):
+            )
+            if unresolved:
                 raw_unresolved += 1
             raw_rejected += 1
             raw_nogood = bm.add_truncated_path_nogood(
                 snapshot,
                 constraint_name=f"raw_truncated_nogood_{raw_candidate_id:04d}",
             )
+            cleanup = {"deleted_files": 0, "deleted_bytes": 0}
+            if not unresolved:
+                cleanup = lp_cleaner.delete_many(
+                    (upper_diff, lower_diff),
+                    reason=f"raw_truncated_candidate_{raw_candidate_id}_rejected",
+                )
             print(
                 f"Raw truncated candidate #{raw_candidate_id}: "
                 f"upper={statuses['upper']}, lower={statuses['lower']}; "
-                f"not counted in results, add {raw_nogood}"
+                f"not counted in results, add {raw_nogood}; "
+                f"lp_cleanup_deleted={cleanup['deleted_files']} "
+                f"lp_cleanup_bytes={cleanup['deleted_bytes']}"
             )
             continue
 
@@ -1007,14 +1142,14 @@ def run_exact_two_level_search(
                 None,
                 "SUPPORT_MISMATCH",
             )
-            return {
+            return finish_result({
                 "result": "SUPPORT_MISMATCH",
                 "upper_trail": None,
                 "lower_trail": None,
                 "truncated": snapshot,
                 "mismatch": exc.mismatch,
                 "truncated_model_id": truncated_model_id,
-            }
+            })
         upper_reports.append(upper_report)
         upper_report["instantiation_seconds"] = upper_instantiation_seconds
 
@@ -1027,7 +1162,7 @@ def run_exact_two_level_search(
                 None,
                 "GLOBAL_TIME_LIMIT",
             )
-            return {
+            return finish_result({
                 "result": "GLOBAL_TIME_LIMIT",
                 "upper_trail": None,
                 "lower_trail": None,
@@ -1036,7 +1171,7 @@ def run_exact_two_level_search(
                     **snapshot.get("timing", {}),
                     "total_solving_seconds": perf_counter() - solve_started,
                 },
-            }
+            })
 
         if upper_report["result"] == "MODEL_INCONSISTENCY":
             _write_joint_path_summary(
@@ -1047,12 +1182,12 @@ def run_exact_two_level_search(
                 None,
                 "MODEL_INCONSISTENCY",
             )
-            return {
+            return finish_result({
                 "result": "MODEL_INCONSISTENCY",
                 "upper_trail": None,
                 "lower_trail": None,
                 "truncated": snapshot,
-            }
+            })
 
         if upper_report["result"] == "SAT":
             _save_accepted(
@@ -1112,14 +1247,14 @@ def run_exact_two_level_search(
                         failure,
                         "SUPPORT_MISMATCH",
                     )
-                    return {
+                    return finish_result({
                         "result": "SUPPORT_MISMATCH",
                         "upper_trail": None,
                         "lower_trail": None,
                         "truncated": snapshot,
                         "mismatch": exc.mismatch,
                         "truncated_model_id": truncated_model_id,
-                    }
+                    })
                 lower_reports.append(lower_report)
                 lower_report["instantiation_seconds"] = lower_instantiation_seconds
             if lower_report["result"] == "GLOBAL_TIME_LIMIT":
@@ -1131,7 +1266,7 @@ def run_exact_two_level_search(
                     lower_report,
                     "GLOBAL_TIME_LIMIT",
                 )
-                return {
+                return finish_result({
                     "result": "GLOBAL_TIME_LIMIT",
                     "upper_trail": None,
                     "lower_trail": None,
@@ -1140,7 +1275,7 @@ def run_exact_two_level_search(
                         **snapshot.get("timing", {}),
                         "total_solving_seconds": perf_counter() - solve_started,
                     },
-                }
+                })
             if lower_report["result"] == "MODEL_INCONSISTENCY":
                 _write_joint_path_summary(
                     path_dir,
@@ -1150,12 +1285,12 @@ def run_exact_two_level_search(
                     lower_report,
                     "MODEL_INCONSISTENCY",
                 )
-                return {
+                return finish_result({
                     "result": "MODEL_INCONSISTENCY",
                     "upper_trail": None,
                     "lower_trail": None,
                     "truncated": snapshot,
-                }
+                })
         else:
             lower_report = {
                 "truncated_id": truncated_id,
@@ -1216,7 +1351,7 @@ def run_exact_two_level_search(
                 raw_rejected_before_results=raw_rejected,
                 raw_unresolved_before_results=raw_unresolved,
             )
-            return {
+            return finish_result({
                 "result": "SUCCESS",
                 "upper_trail": upper_characteristic,
                 "lower_trail": lower_characteristic,
@@ -1230,7 +1365,7 @@ def run_exact_two_level_search(
                     **snapshot.get("timing", {}),
                     "total_solving_seconds": perf_counter() - solve_started,
                 },
-            }
+            })
 
         if (
             upper_report["result"] == "TIMEOUT_SKIPPED"
@@ -1254,9 +1389,21 @@ def run_exact_two_level_search(
             joint_result,
             truncated_nogood=truncated_nogood,
         )
+        rejected_results = {"CONCRETE_EXHAUSTED", "UNSAT", "NOT_RUN_UPPER_NOT_SAT"}
+        cleanup_targets = []
+        if upper_report["result"] in rejected_results:
+            cleanup_targets.append(upper_diff)
+        if lower_report["result"] in rejected_results:
+            cleanup_targets.append(lower_diff)
+        cleanup = lp_cleaner.delete_many(
+            cleanup_targets,
+            reason=f"truncated_candidate_{truncated_id}_{joint_result}",
+        )
         print(
             f"Truncated #{truncated_id}: {upper_report['result']} / "
-            f"{lower_report['result']}; add {truncated_nogood} and optimize same truncated model"
+            f"{lower_report['result']}; add {truncated_nogood} and optimize same truncated model; "
+            f"lp_cleanup_deleted={cleanup['deleted_files']} "
+            f"lp_cleanup_bytes={cleanup['deleted_bytes']}"
         )
 
 
@@ -1671,12 +1818,14 @@ def main(argv=None):
             else None
         )
         try:
-            return _run_search(
+            result = _run_search(
                 params,
                 results_dir,
                 solve_started=solve_started,
                 global_deadline=global_deadline,
             )
+            print(f"Results saved in {results_dir}")
+            return result
         except BaseException:
             traceback.print_exc()
             print(f"Total solving time before failure: {perf_counter() - solve_started:.6f} seconds")

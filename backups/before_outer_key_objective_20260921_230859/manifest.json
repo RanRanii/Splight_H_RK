@@ -1,0 +1,339 @@
+﻿{
+    "created_at":  "2026-09-21T23:08:59.1577092+08:00",
+    "project_root":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK",
+    "backup_root":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859",
+    "operation":  "Move existing 17/18-round result and log artifacts before rerun; copy scripts before edit",
+    "cases":  [
+                  {
+                      "rounds":  17,
+                      "case":  "8-2-7_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\8-2-7_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\8-2-7_636",
+                      "status":  "SUCCESS",
+                      "file_count":  17,
+                      "total_bytes":  341092,
+                      "summary_sha256":  "13057FD8FCBEBF0CAE72F5AD0524B3BD5A1E95DDBB4BA5274788BC235112849B",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  17,
+                      "case":  "7-2-8_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\7-2-8_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\7-2-8_636",
+                      "status":  "SUCCESS",
+                      "file_count":  17,
+                      "total_bytes":  330443,
+                      "summary_sha256":  "42094F5FADD44250E0230C13FFC7B5B9F23D2684C869446E55316E6F2CA87848",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  17,
+                      "case":  "8-3-6_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\8-3-6_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\8-3-6_636",
+                      "status":  "SUCCESS",
+                      "file_count":  19,
+                      "total_bytes":  363525,
+                      "summary_sha256":  "07D23EA16D026772821A5E2861937DD25A6A17A6AC00B155504E50A5F75E4EB6",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  17,
+                      "case":  "7-3-7_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\7-3-7_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\7-3-7_636",
+                      "status":  "SUCCESS",
+                      "file_count":  21,
+                      "total_bytes":  360809,
+                      "summary_sha256":  "4CD28F2DD29F7F762482DD1DB66B301174EBC5E63F5BBB84697C61D8C9431C59",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  17,
+                      "case":  "6-3-8_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\6-3-8_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\6-3-8_636",
+                      "status":  "SUCCESS",
+                      "file_count":  25,
+                      "total_bytes":  383269,
+                      "summary_sha256":  "356D2E46378E1EDF7838F5A8617F2D8970A8E5F91A24B9D9AB77528A2F6C4A1B",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  17,
+                      "case":  "8-4-5_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\8-4-5_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\8-4-5_636",
+                      "status":  "SUCCESS",
+                      "file_count":  17,
+                      "total_bytes":  354050,
+                      "summary_sha256":  "FFF69F653FCD868CF9F39638DA54D0D5D332A498A02E6702299945DE7DB62C48",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  17,
+                      "case":  "7-4-6_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\7-4-6_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\7-4-6_636",
+                      "status":  "SUCCESS",
+                      "file_count":  17,
+                      "total_bytes":  346782,
+                      "summary_sha256":  "772D48B65499D878CF0DCEAF3E70F3728D215858FFAFCDB5E149229115ECB7A4",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  17,
+                      "case":  "6-4-7_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\6-4-7_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\6-4-7_636",
+                      "status":  "SUCCESS",
+                      "file_count":  25,
+                      "total_bytes":  388897,
+                      "summary_sha256":  "A300C2CDE26A00BF744451241F7E82010480B10ED5DFC2D445AE4B843C3010B5",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  17,
+                      "case":  "5-4-8_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\5-4-8_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\5-4-8_636",
+                      "status":  "SUCCESS",
+                      "file_count":  51,
+                      "total_bytes":  547618,
+                      "summary_sha256":  "A19E4786064EA3982BF4BDAC58C6DBC3060BBC3CB01AA1C4474B5ADC28112C6A",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  17,
+                      "case":  "8-5-4_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\8-5-4_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\8-5-4_636",
+                      "status":  "SUCCESS",
+                      "file_count":  19,
+                      "total_bytes":  943177,
+                      "summary_sha256":  "52C02AD594B6B1A5422560CD3A7981E6B7B2BEC3E9E13A81691DF78849572DE2",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  17,
+                      "case":  "6-5-6_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\6-5-6_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\6-5-6_636",
+                      "status":  "SUCCESS",
+                      "file_count":  17,
+                      "total_bytes":  351991,
+                      "summary_sha256":  "B781CA1F37FA260EAF911245DA2E2DC74D322B18EA182B12FCC42470CDE255C6",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  17,
+                      "case":  "5-5-7_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\5-5-7_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\5-5-7_636",
+                      "status":  "SUCCESS",
+                      "file_count":  17,
+                      "total_bytes":  378486,
+                      "summary_sha256":  "E7CA6A3C8130074E9D71CD466A2C2164E4CBDA76D33878990887040E11BD5B47",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  17,
+                      "case":  "7-5-5_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\7-5-5_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\7-5-5_636",
+                      "status":  "SUCCESS",
+                      "file_count":  31,
+                      "total_bytes":  428020,
+                      "summary_sha256":  "9F72FFDA4CF82EE194322FF34B9201D93DAEEBA24CE26138DD22AA0D81969B9E",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  17,
+                      "case":  "4-5-8_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\4-5-8_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\4-5-8_636",
+                      "status":  "SUCCESS",
+                      "file_count":  51,
+                      "total_bytes":  551481,
+                      "summary_sha256":  "63B698506C283C35595F41A2E259567E903CE6DA9B02353065701D9E7DF73904",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  18,
+                      "case":  "8-2-8_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\8-2-8_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\8-2-8_636",
+                      "status":  "SUCCESS",
+                      "file_count":  25,
+                      "total_bytes":  470534,
+                      "summary_sha256":  "E5CDFAB239BC227899C150D23886F13DB1829A41962B67A0D270D2FF8F7C8478",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  18,
+                      "case":  "7-2-9_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\7-2-9_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\7-2-9_636",
+                      "status":  "SUCCESS",
+                      "file_count":  17,
+                      "total_bytes":  354179,
+                      "summary_sha256":  "B696000AB66DAA306AC424D701EF9522F7679FF7F671EA9C7DF6B4190F585385",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  18,
+                      "case":  "9-2-7_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\9-2-7_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\9-2-7_636",
+                      "status":  "NO_SUMMARY",
+                      "file_count":  2,
+                      "total_bytes":  2595,
+                      "summary_sha256":  null,
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  18,
+                      "case":  "8-3-7_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\8-3-7_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\8-3-7_636",
+                      "status":  "SUCCESS",
+                      "file_count":  23,
+                      "total_bytes":  394135,
+                      "summary_sha256":  "F23000EBA938F68A710487DF3081A6A411C01620B9E646420897C7B62888695D",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  18,
+                      "case":  "7-3-8_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\7-3-8_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\7-3-8_636",
+                      "status":  "SUCCESS",
+                      "file_count":  25,
+                      "total_bytes":  402226,
+                      "summary_sha256":  "B402C5BD8DBA838E41F467BDA7D9C6E89AB34A02362A740E386684820C05416B",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  18,
+                      "case":  "8-4-6_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\8-4-6_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\8-4-6_636",
+                      "status":  "SUCCESS",
+                      "file_count":  17,
+                      "total_bytes":  366353,
+                      "summary_sha256":  "A29C5E92865AF6F9996205BCD2F802D6E37B7265B10B703FF7F4A904F4689B73",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  18,
+                      "case":  "7-4-7_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\7-4-7_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\7-4-7_636",
+                      "status":  "SUCCESS",
+                      "file_count":  23,
+                      "total_bytes":  397168,
+                      "summary_sha256":  "9EB71716C222DFB05C17E107AD6A478C40C9A71E632422F9BA6941775AF5E884",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  18,
+                      "case":  "6-4-8_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\6-4-8_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\6-4-8_636",
+                      "status":  "SUCCESS",
+                      "file_count":  25,
+                      "total_bytes":  407832,
+                      "summary_sha256":  "CBAC2AB8943B2AE73158D7B2DE25574D36AB9B59C2CD06FE9AF13F2130DA54D0",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  18,
+                      "case":  "8-5-5_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\8-5-5_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\8-5-5_636",
+                      "status":  "SUCCESS",
+                      "file_count":  31,
+                      "total_bytes":  454471,
+                      "summary_sha256":  "4B50696C6E832CDC8A6DDD828746BDE58B4114CE73919806209F33456E8B109E",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  18,
+                      "case":  "7-5-6_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\7-5-6_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\7-5-6_636",
+                      "status":  "SUCCESS",
+                      "file_count":  17,
+                      "total_bytes":  370664,
+                      "summary_sha256":  "A63A687D309F2EDF05DF3D91068B95A8EA9E27C5BA0D53C75599473E62E35167",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  18,
+                      "case":  "6-5-7_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\6-5-7_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\6-5-7_636",
+                      "status":  "SUCCESS",
+                      "file_count":  17,
+                      "total_bytes":  374340,
+                      "summary_sha256":  "871038D13588DCC7AEF0B1597174B7C8AA27B891D7A26E381B02F8B648A6B1F8",
+                      "moved":  true
+                  },
+                  {
+                      "rounds":  18,
+                      "case":  "5-5-8_636",
+                      "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\results\\5-5-8_636",
+                      "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\results\\5-5-8_636",
+                      "status":  "SUCCESS",
+                      "file_count":  17,
+                      "total_bytes":  393641,
+                      "summary_sha256":  "0478F317C2345098FEA90FC319822A4833D7D69BEEE6C59043026D96980C7A1B",
+                      "moved":  true
+                  }
+              ],
+    "logs":  [
+                 {
+                     "kind":  "queue_log",
+                     "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\run\\run_17_636_recommended_queue.log",
+                     "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\queue_logs\\run_17_636_recommended_queue.log",
+                     "existed":  true,
+                     "moved":  true
+                 },
+                 {
+                     "kind":  "queue_log",
+                     "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\run\\run_18_636_recommended_queue.log",
+                     "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\queue_logs\\run_18_636_recommended_queue.log",
+                     "existed":  true,
+                     "moved":  true
+                 },
+                 {
+                     "kind":  "case_logs",
+                     "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\run\\logs\\run_17_636_recommended_queue",
+                     "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\case_logs\\run_17_636_recommended_queue",
+                     "existed":  true,
+                     "moved":  true
+                 },
+                 {
+                     "kind":  "case_logs",
+                     "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\run\\logs\\run_18_636_recommended_queue",
+                     "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\case_logs\\run_18_636_recommended_queue",
+                     "existed":  true,
+                     "moved":  true
+                 }
+             ],
+    "scripts":  [
+                    {
+                        "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\run\\run_17_636_recommended_queue.ps1",
+                        "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\scripts_before_edit\\run_17_636_recommended_queue.ps1",
+                        "sha256":  "96A9CCBA61430D3208DD9111D10239110AB42B64560D6134582E507F354F6733",
+                        "copied":  true
+                    },
+                    {
+                        "source":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\run\\run_18_636_recommended_queue.ps1",
+                        "destination":  "E:\\Codex_project\\Feistel-Boomerang自动化搜索\\Test\\Splight-H-RK\\backups\\before_outer_key_objective_20260921_230859\\scripts_before_edit\\run_18_636_recommended_queue.ps1",
+                        "sha256":  "E9C7569FC829E6348BA01507CBCD48C858A88E0CBE7415F2D6D427E608270CB4",
+                        "copied":  true
+                    }
+                ],
+    "completed_at":  "2026-09-21T23:09:00.3464158+08:00"
+}

@@ -224,11 +224,20 @@ class RKTruncatedBoomerang:
         terms = []
         for r in range(self.r0):
             terms.extend(f"{self.w0} {v}" for v in self.upper.active_sbox_vars(r))
+            # Include ordinary upper key-schedule S-box activity in E0.
+            # The global key-state index follows the same convention as the
+            # existing key-schedule constraint builder; the middle interval
+            # starts at global round r0 and is therefore excluded here.
+            terms.extend(f"{self.w0} {v}" for v in self.upper.key_sbox_vars(r))
         for r in range(self.rm):
             terms.extend(f"{self.wm} {v}" for v in self.generate_common_active_variables(r))
             terms.extend(f"{self.wm} {v}" for v in self.generate_common_key_active_variables(r))
         for r in range(self.rm, self.R1):
             terms.extend(f"{self.w1} {v}" for v in self.lower.active_sbox_vars(r))
+            # The lower model is offset by r0.  Count only ordinary
+            # key-schedule S-boxes in E1; middle key-schedule activity is
+            # already represented by the common middle variables above.
+            terms.extend(f"{self.w1} {v}" for v in self.lower.key_sbox_vars(self.r0 + r))
         self._collect()
         return " + ".join(terms) if terms else "0"
 
