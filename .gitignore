@@ -9,6 +9,7 @@ __pycache__/
 .pytest_cache/
 
 
+
 # ========================================
 # Main boomerang search results
 # ========================================
@@ -24,6 +25,8 @@ backups/
 
 probability_results/
 
+rk-bd_verify/
+_rkbd_scratch
 
 # ========================================
 # Temporary Gurobi / solver files

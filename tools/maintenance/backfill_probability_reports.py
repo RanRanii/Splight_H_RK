@@ -10,7 +10,7 @@ import sys
 BASE_DIR = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(BASE_DIR))
 
-from run.probtest_from_results import (  # noqa: E402
+from tools.probtest_from_results import (  # noqa: E402
     probability_report_stem,
     write_probability_markdown,
 )

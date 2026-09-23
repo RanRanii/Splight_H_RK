@@ -207,7 +207,7 @@ python rkboom.py -r0 2 -rm 3 -r1 2 --probtest t
 从已有搜索结果单独重跑概率实验：
 
 ```powershell
-python run/probtest_from_results.py --result-dir .\results\4-4-4_636
+python tools/probtest_from_results.py --result-dir .\results\4-4-4_636
 ```
 
 可选的 `--seed` 复用现有 evaluator 的随机种子覆盖能力，`-tl/--timelimit` 覆盖保存参数中的 key schedule MILP 时限。样本数继续按现有 weight/CAS 自动规则决定，不会重新运行 truncated MILP、RKDiff 或 Z3。exact 结果优先读取 `exact_summary.json` 指向的 `truncated_XXXX/{upper,lower}/accepted.json`；若该链不完整，只回退到正式结果 JSON，绝不读取 rejected/unknown candidate。旧目录 `<r0-rm-r1>` 和新目录 `<r0-rm-r1_w0wmw1>` 都可读取，输出保存为 `probability_results/<case>/`。日志末尾使用实验值输出 `p^2 * r * q^2 = 2^(-n)`；若某项测试被跳过或零命中，则明确说明无法得到有限实验指数。
@@ -344,6 +344,7 @@ Splight-H-RK/
 | `keydiff.py` | `KeyDiff`；只求解 128-bit key schedule 差分，支持正向/反向固定 key state，并提供 CLI |
 | `tools/rkdiff_cli.py` | 单独调用 `RKDiff` 的轻量 CLI，保存一条 N 轮 characteristic 的 JSON/TXT |
 | `tools/rk_exact_verify.py` | 主流程使用的真实值 Z3 verifier；验证完整差分量并在 SAT 时执行普通 Python replay |
+| `tools/probtest_from_results.py` | 从已有 `results/<case>/` 恢复正式 upper/lower trail 并调用既有 RK 概率 evaluator；输出到 `probability_results/<case>/`，不重跑 truncated/RKDiff/Z3 搜索 |
 | `tools/maintenance/refresh_result_round_ks.py` | 一次性维护工具：不重新求解；批量重写已有 `results/*`；只有显式传入 `--rename-case-dirs` 才迁移旧目录，且不覆盖已存在的目标目录 |
 | `tools/maintenance/update_743_key_schedule_display.py` | 一次性维护工具：只针对 `results/7-4-3` 生成详细 key schedule 变量表；会修改 7-4-3 历史结果 |
 
@@ -409,7 +410,6 @@ seed                  = 当天日期 YYYYMMDD
 |---|---|
 | `run/__init__.py` | Python 包标记 |
 | `run/run_rkdiff_rounds.py` | 依次调用 `tools/rkdiff_cli.py` 搜索 2–11 轮；保存每轮 JSON/TXT/terminal log，并生成汇总 Markdown。目标目录运行后为 `results/rkdiff_2_11/` |
-| `run/probtest_from_results.py` | 从已有 `results/<case>/` 恢复正式 upper/lower trail 并调用既有 RK 概率 evaluator；输出到 `probability_results/<case>/`，不重跑 truncated/RKDiff/Z3 搜索 |
 
 ## 15. `diff/`：轮数扫描、最小 weight 结果和问题记录
 

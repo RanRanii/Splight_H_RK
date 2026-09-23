@@ -214,4 +214,4 @@ $$
 - 搜索终端日志：`results/<case>/terminal_print.txt`
 - 概率实验总结：`probability_results/<case>/summary.json`
 - 概率实验完整终端输出：`probability_results/<case>/terminal_print.txt`
-- 离线概率命令：`python run/probtest_from_results.py --result-dir .\results\<case>`
+- 离线概率命令：`python tools/probtest_from_results.py --result-dir .\results\<case>`

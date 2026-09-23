@@ -16,6 +16,7 @@ tools/
 |- rkdiff_cli.py
 |- rk_exact_verify.py
 |- rk_bm_exact_verify.py
+|- probtest_from_results.py
 |- maintenance/
 |  |- refresh_result_round_ks.py
 |  `- update_743_key_schedule_display.py
