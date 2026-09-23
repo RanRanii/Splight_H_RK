@@ -5,7 +5,7 @@ param(
 
 $ErrorActionPreference = "Continue"
 $projectDir = Split-Path -Parent $PSScriptRoot
-$queueName = "run_19_636_concrete_then_rklb_queue"
+$queueName = "run_19_636_recommended_queue"
 $queueLogPath = Join-Path $PSScriptRoot "$queueName.log"
 $caseLogDir = Join-Path $PSScriptRoot "logs\$queueName"
 
@@ -86,15 +86,15 @@ $failed = 0
 
 foreach ($task in $tasks) {
     $caseName = "$($task.r0)-$($task.rm)-$($task.r1)_636"
-    $existingStatus = Get-ExactResult $caseName
-    if ($existingStatus -eq "SUCCESS") {
-        Write-QueueLog "SKIP order=$($task.order) case=$caseName reason=EXACT_SUCCESS"
+
+    # Skip any case that already has a result directory.  This queue only
+    # fills in configurations that never produced a result, so both completed
+    # and timed-out cases are left untouched.
+    if (Has-ResultDirectory $caseName) {
+        $existingStatus = Get-ExactResult $caseName
+        Write-QueueLog "SKIP order=$($task.order) case=$caseName reason=RESULT_DIRECTORY_EXISTS exact=$existingStatus"
         $skipped += 1
         continue
-    }
-
-    if (Has-ResultDirectory $caseName) {
-        Write-QueueLog "RETRY order=$($task.order) case=$caseName reason=INCOMPLETE_RESULT exact=$existingStatus"
     }
 
     $caseLogPath = Join-Path $caseLogDir "$caseName.log"
