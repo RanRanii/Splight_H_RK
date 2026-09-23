@@ -1,0 +1,526 @@
+========================================================================
+Search time limits
+single MILP optimize : 1200 seconds
+global search       : unlimited
+probability test     : excluded from global search time
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-10-10
+Read LP format model from file tmp\splight_h_rk_8_2_6_rk-ladder.lp
+Reading time = 0.04 seconds
+: 3379 rows, 2180 columns, 8496 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980902148.lp
+Reading time = 0.06 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980902344.lp
+Reading time = 0.05 seconds
+: 13150 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #1: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0001; lp_cleanup_deleted=2 lp_cleanup_bytes=1122332
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980904958.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980905076.lp
+Reading time = 0.08 seconds
+: 13168 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #2: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0002; lp_cleanup_deleted=2 lp_cleanup_bytes=1122380
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980907733.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980907831.lp
+Reading time = 0.05 seconds
+: 13153 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #3: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0003; lp_cleanup_deleted=2 lp_cleanup_bytes=1122340
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980909882.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980909964.lp
+Reading time = 0.04 seconds
+: 13168 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #4: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0004; lp_cleanup_deleted=2 lp_cleanup_bytes=1122380
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980912024.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980912109.lp
+Reading time = 0.04 seconds
+: 13159 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #5: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0005; lp_cleanup_deleted=2 lp_cleanup_bytes=1122356
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980914143.lp
+Reading time = 0.06 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980914245.lp
+Reading time = 0.10 seconds
+: 13162 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #6: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0006; lp_cleanup_deleted=2 lp_cleanup_bytes=1122364
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980917281.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980917372.lp
+Reading time = 0.06 seconds
+: 13144 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #7: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0007; lp_cleanup_deleted=2 lp_cleanup_bytes=1122316
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980919229.lp
+Reading time = 0.05 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980919344.lp
+Reading time = 0.06 seconds
+: 13177 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #8: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0008; lp_cleanup_deleted=2 lp_cleanup_bytes=1122404
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980922346.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980922462.lp
+Reading time = 0.05 seconds
+: 13165 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #9: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0009; lp_cleanup_deleted=2 lp_cleanup_bytes=1122372
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980924568.lp
+Reading time = 0.02 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980924634.lp
+Reading time = 0.03 seconds
+: 13156 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #10: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0010; lp_cleanup_deleted=2 lp_cleanup_bytes=1122348
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980925895.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980925986.lp
+Reading time = 0.03 seconds
+: 13180 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #11: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0011; lp_cleanup_deleted=2 lp_cleanup_bytes=1122412
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980928220.lp
+Reading time = 0.05 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980928287.lp
+Reading time = 0.04 seconds
+: 13156 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #12: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0012; lp_cleanup_deleted=2 lp_cleanup_bytes=1122348
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980930484.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980930569.lp
+Reading time = 0.04 seconds
+: 13153 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #13: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0013; lp_cleanup_deleted=2 lp_cleanup_bytes=1122340
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980932146.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980932277.lp
+Reading time = 0.04 seconds
+: 13138 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #14: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0014; lp_cleanup_deleted=2 lp_cleanup_bytes=1122300
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980934084.lp
+Reading time = 0.05 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980934196.lp
+Reading time = 0.05 seconds
+: 13180 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #15: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0015; lp_cleanup_deleted=2 lp_cleanup_bytes=1122412
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980937062.lp
+Reading time = 0.06 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980937146.lp
+Reading time = 0.03 seconds
+: 13159 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #16: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0016; lp_cleanup_deleted=2 lp_cleanup_bytes=1122356
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980939482.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980939562.lp
+Reading time = 0.04 seconds
+: 13132 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #17: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0017; lp_cleanup_deleted=2 lp_cleanup_bytes=1122284
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980941744.lp
+Reading time = 0.02 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980941798.lp
+Reading time = 0.03 seconds
+: 13171 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #18: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0018; lp_cleanup_deleted=2 lp_cleanup_bytes=1122388
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980942997.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980943064.lp
+Reading time = 0.03 seconds
+: 13156 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #19: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0019; lp_cleanup_deleted=2 lp_cleanup_bytes=1122348
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980944505.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980944603.lp
+Reading time = 0.03 seconds
+: 13162 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #20: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0020; lp_cleanup_deleted=2 lp_cleanup_bytes=1122364
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980947290.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980947389.lp
+Reading time = 0.04 seconds
+: 13156 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #21: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0021; lp_cleanup_deleted=2 lp_cleanup_bytes=1122348
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980949947.lp
+Reading time = 0.05 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980950050.lp
+Reading time = 0.08 seconds
+: 13150 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #22: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0022; lp_cleanup_deleted=2 lp_cleanup_bytes=1122332
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980952771.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980952853.lp
+Reading time = 0.05 seconds
+: 13180 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #23: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0023; lp_cleanup_deleted=2 lp_cleanup_bytes=1122412
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980955109.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980955209.lp
+Reading time = 0.05 seconds
+: 13180 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #24: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0024; lp_cleanup_deleted=2 lp_cleanup_bytes=1122412
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980957629.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980957686.lp
+Reading time = 0.03 seconds
+: 13141 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #25: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0025; lp_cleanup_deleted=2 lp_cleanup_bytes=1122308
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980959881.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980959986.lp
+Reading time = 0.04 seconds
+: 13135 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #26: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0026; lp_cleanup_deleted=2 lp_cleanup_bytes=1122292
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980961740.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980961840.lp
+Reading time = 0.04 seconds
+: 13159 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #27: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0027; lp_cleanup_deleted=2 lp_cleanup_bytes=1122356
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980964248.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980964341.lp
+Reading time = 0.04 seconds
+: 13177 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #28: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0028; lp_cleanup_deleted=2 lp_cleanup_bytes=1122404
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980966443.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980966537.lp
+Reading time = 0.04 seconds
+: 13132 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #29: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0029; lp_cleanup_deleted=2 lp_cleanup_bytes=1122284
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980969798.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980969892.lp
+Reading time = 0.03 seconds
+: 13156 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #30: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0030; lp_cleanup_deleted=2 lp_cleanup_bytes=1122348
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980972910.lp
+Reading time = 0.05 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980973012.lp
+Reading time = 0.07 seconds
+: 13168 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #31: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0031; lp_cleanup_deleted=2 lp_cleanup_bytes=1122380
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980975002.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980975061.lp
+Reading time = 0.03 seconds
+: 13138 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #32: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0032; lp_cleanup_deleted=2 lp_cleanup_bytes=1122300
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980977287.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980977343.lp
+Reading time = 0.03 seconds
+: 13153 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #33: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0033; lp_cleanup_deleted=2 lp_cleanup_bytes=1122340
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980980364.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980980472.lp
+Reading time = 0.04 seconds
+: 13165 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #34: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0034; lp_cleanup_deleted=2 lp_cleanup_bytes=1122372
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980983331.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980983415.lp
+Reading time = 0.03 seconds
+: 13135 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #35: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0035; lp_cleanup_deleted=2 lp_cleanup_bytes=1122292
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980986593.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980986665.lp
+Reading time = 0.06 seconds
+: 13177 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #36: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0036; lp_cleanup_deleted=2 lp_cleanup_bytes=1122404
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980989251.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980989336.lp
+Reading time = 0.03 seconds
+: 13147 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #37: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0037; lp_cleanup_deleted=2 lp_cleanup_bytes=1122324
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980994484.lp
+Reading time = 0.09 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980994629.lp
+Reading time = 0.12 seconds
+: 13165 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #38: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0038; lp_cleanup_deleted=2 lp_cleanup_bytes=1122372
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980998812.lp
+Reading time = 0.02 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789980998866.lp
+Reading time = 0.03 seconds
+: 13159 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #39: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0039; lp_cleanup_deleted=2 lp_cleanup_bytes=1122356
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789981001530.lp
+Reading time = 0.04 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789981001635.lp
+Reading time = 0.04 seconds
+: 13153 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #40: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0040; lp_cleanup_deleted=2 lp_cleanup_bytes=1122340
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789981005066.lp
+Reading time = 0.07 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789981005154.lp
+Reading time = 0.04 seconds
+: 13165 rows, 4096 columns, 42592 nonzeros
+Raw truncated candidate #41: upper=OPTIMAL, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0041; lp_cleanup_deleted=2 lp_cleanup_bytes=1122372
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789981009981.lp
+Reading time = 0.03 seconds
+: 11915 rows, 3504 columns, 42288 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_31108_1789981010060.lp
+Reading time = 0.05 seconds
+: 13147 rows, 4096 columns, 42592 nonzeros
+
+MILP-qualified truncated path timing
+qualified truncated id       : 1
+raw truncated candidates     : 42
+from solve start to qualified: 109.845380 seconds
+upper RKDiff instantiation   : 0.106669 seconds
+lower RKDiff instantiation   : 0.107718 seconds
+
+Upper Related-Key Truncated Trail:
+
+Rounds  x                 y         l         rk        ak        z        
+----------------------------------------------------------------------------
+0       0000000000000100  00000000  00000000  00000000  00000000  00000000 
+1       0001000000000000  00010000  10000000  10000000  00000000  00000000 
+2       0000000000010000  00000000  00000000  00000000  00000000  00000000 
+3       0100000000000000  01000000  00100000  00100000  00000000  00000000 
+4       0000000001000000  00000000  00000000  01000000  01000000  01000000 
+5       0000000000000000  00000000  00000000  00000000  00000000  00000000 
+6       0000000000000000  00000000  00000000  00000000  00000000  00000000 
+7       0000000000000000  00000000  00000000  00100000  00100000  00100000 
+8       1000000000000000  10000000  11010000  01000000  11010000  11010000 
+9       0100001110000000  01000011  00101011  10000000  10101011  10101011 
+10      1010111001000011  none      none      none      none      none     
+Upper master-key activity: 00100000010000001000000000000001
+
+++++++++++++++++
+################
+Lower Related-Key Truncated Trail:
+
+Rounds  x                 y         l         rk        ak        z        
+----------------------------------------------------------------------------
+0       0000100001001101  00001000  00001101  00000100  00001101  00001101 
+1       0000000100001000  00000001  00001000  00001000  00001000  00001000 
+2       0000000000000001  00000000  00000000  00000000  00000000  00000000 
+3       0000010000000000  00000100  00000010  00000010  00000000  00000000 
+4       0000000000000100  00000000  00000000  00000100  00000100  00000100 
+5       0000000000000000  00000000  00000000  00000000  00000000  00000000 
+6       0000000000000000  00000000  00000000  00000000  00000000  00000000 
+7       0000000000000000  00000000  00000000  00000010  00000010  00000010 
+8       0000100000000000  none      none      none      none      none     
+Lower master-key activity: 00000010010001001000000000000000
+
+################
+################
+Middle Part:
+
+Round   state common                         key-schedule common
+--------------------------------------------------------------------
+0       0*0*0*0*0*0*0*0* 0*0*0*0*0*0*0*0*     0*0*
+1       0*0*0*0*0*0*0*1* 0*0*0*0*1*0*0*0*     0*0*
+
+Number of common active S-boxes: 2 (state=2, key=0)
+============================================================
+Upper exact-realizability refinement, truncated #1
+============================================================
+
+Candidate #1
+MILP status : OPTIMAL
+MILP weight : 8.0
+MILP time   : 0.027183 seconds
+SMT status  : SAT
+Z3 time     : 1.288322 seconds
+Replay      : PASS
+Accepted upper: truncated #1, candidate #1
+============================================================
+Lower exact-realizability refinement, truncated #1
+============================================================
+
+Candidate #1
+MILP status : OPTIMAL
+MILP weight : 6.0
+MILP time   : 0.028477 seconds
+SMT status  : SAT
+Z3 time     : 0.953242 seconds
+Replay      : PASS
+Accepted lower: truncated #1, candidate #1
+Instantiation LP cleanup: registered=84 deleted=82 deleted_bytes=46016492 retained=2 refused=0 failures=0
+
+============================================================
+Boomerang distinguisher for 8 + 2 + 6 
+############################################################
+Summary of the results:
+Upper trail:
+Rounds  x                 y         l         RK        ak        z         KS                                  pr      rw      kw     
+------------------------------------------------------------------------------------------------------------------------------------
+0       0000000000000200  00000000  00000000  00000000  00000000  00000000  00000000200000000000000200200000    -0      -0      -0     
+1       0002000000000000  00020000  20000000  20000000  00000000  00000000  20000000000000020020000000000000    -2      -2      -0     
+2       0000000000020000  00000000  00000000  00000000  00000000  00000000  00000000002000000000000020000000    -0      -0      -0     
+3       0200000000000000  02000000  00200000  00200000  00000000  00000000  00200000000000002000000000000000    -2      -2      -0     
+4       0000000002000000  00000000  00000000  02000000  02000000  02000000  02000000200000000000000000200000    -2      -2      -0     
+5       0000000000000000  00000000  00000000  00000000  00000000  00000000  00000000000000000020000002000000    -0      -0      -0     
+6       0000000000000000  00000000  00000000  00000000  00000000  00000000  00000000002000000200000000000000    -0      -0      -0     
+7       0000000000000000  00000000  00000000  00200000  00200000  00200000  00200000020000000000000000000000    -2      -2      -0     
+8       2000000000000000  none      none      none      none      none      none                                none    none    none   
+Master key diff: 00200000020000002000000000000002
+Weight: -8.00
+############################################################
+Sandwich 2 rounds in the middle with 2 active S-boxes
+############################################################
+Lower trail:
+Rounds  x                 y         l         RK        ak        z         KS                                  pr      rw      kw     
+------------------------------------------------------------------------------------------------------------------------------------
+0       0000000000000005  00000000  00000000  00000000  00000000  00000000  0000000000000040000009000000D000    -0      -0      -0     
+1       0000050000000000  00000400  00000040  00000040  00000000  00000000  00000040000009000000D00000000000    -2      -2      -0     
+2       0000000000000500  00000000  00000000  00000D00  00000D00  00000500  00000D000000D0000000000000000040    -2      -2      -0     
+3       0000000000000000  00000000  00000000  00000000  00000000  00000000  00000000000000000000004000000D00    -0      -0      -0     
+4       0000000000000000  00000000  00000000  00000000  00000000  00000000  000000000000004000000D0000000000    -0      -0      -0     
+5       0000000000000000  00000000  00000000  00000040  00000040  00000040  0000004000000D000000000000000000    -2      -2      -0     
+6       0000400000000000  none      none      none      none      none      none                                none    none    none   
+Master key diff: 0000004009000D009000000000000000
+Weight: -6.00
+---------------------------
+differential effect of the upper trail: 2^(-8.00)
+differential effect of the lower trail: 2^(-6.00)
+Total probability = p^2*q^2*r = 2^(-16.00) x 2^(-12.00) x r
+2^(-33.00) <= Total probability <= 2^(-32.00)
+To compute the accurate value of total probability, r should be evaluated experimentally or using the (F)BCT framework
+Total solving time: 114.620234 seconds
+
+========================================================================
+搜索后的相关密钥概率实验
+
+------------------------------------------------------------------------
+上路径相关密钥差分概率测试
+mode          : rkdiff
+rounds        : 8
+round offset  : 0
+input diff    : 0000000000000200
+output diff   : 2000000000000000 (L_r||R_r)
+key diff      : 00200000020000002000000000000002
+trials        : 1
+data size     : 2^(10)
+trial 0001: right=3 total=2^(10) probability=0.0029296875
+------------------------------------------------------------------------
+aggregate right pairs/quartets : 3
+aggregate total pairs/quartets : 2^(10)
+estimated probability          : 0.0029296875
+log2(probability)              : -8.415037
+theory log2                    : -8.000000
+
+------------------------------------------------------------------------
+下路径相关密钥差分概率测试
+mode          : rkdiff
+rounds        : 6
+round offset  : 10
+input diff    : 0000000000000005
+output diff   : 0000400000000000 (L_r||R_r)
+key diff      : 0000D000000D00000000004000000900
+trials        : 1
+data size     : 2^(8)
+trial 0001: right=1 total=2^(8) probability=0.00390625
+------------------------------------------------------------------------
+aggregate right pairs/quartets : 1
+aggregate total pairs/quartets : 2^(8)
+estimated probability          : 0.00390625
+log2(probability)              : -8.000000
+theory log2                    : -6.000000
+
+------------------------------------------------------------------------
+Em 前相关密钥调度推导
+upper forward : fixed ks_0 = 00200000020000002000000000000002
+                output ks_10 = 00000000000000000020000000000000
+                total weight = -0.0
+lower backward: fixed ks_16 = 0000004000000D000000000000000000
+                output ks_0 = 0000004009000D009000000000000000
+                total weight = -6.0
+
+Rounds  ksu                                 ksl                                 u_sbox_in  l_sbox_in  wu      wl     
+------------------------------------------------------------------------------------------------------------------------
+0       00200000020000002000000000000002    0000004009000D009000000000000000    00200000   00000040   -0      -0     
+1       00000000200000000000000200200000    09000900900000000000000000000040    00000000   09000900   -0      -0     
+2       20000000000000020020000000000000    00009000000000000000004009000900    20000000   00009000   -0      -0     
+3       00000000002000000000000020000000    00090000000000400900090000009000    00000000   00090000   -0      -3     
+4       00200000000000002000000000000000    00900040090009000000900000090000    00200000   00900040   -0      -0     
+5       02000000200000000000000000200000    00000D00000090000009000000900040    02000000   00000D00   -0      -0     
+6       00000000000000000020000002000000    00004000000900000090004000000D00    00000000   00004000   -0      -0     
+7       00000000002000000200000000000000    000D00000090004000000D0000004000    00000000   000D0000   -0      -3     
+
+----------------------------------------------- Em start: global round 8 -----------------------------------------------
+
+8       00200000020000000000000000000000    0000004000000D0000004000000D0000    00200000   00000040   -0      -0     
+9       00000000000000000000000000200000    0000090000004000000D000000000040    00000000   00000900   -0      -0     
+
+------------------------------------------ Em end / E1 start: global round 10 ------------------------------------------
+
+10      00000000000000000020000000000000    0000D000000D00000000004000000900    none       0000D000   none    -0     
+11      none                                0000000000000040000009000000D000    none       00000000   none    -0     
+12      none                                00000040000009000000D00000000000    none       00000040   none    -0     
+13      none                                00000D000000D0000000000000000040    none       00000D00   none    -0     
+14      none                                00000000000000000000004000000D00    none       00000000   none    -0     
+15      none                                000000000000004000000D0000000000    none       00000000   none    -0     
+16      none                                0000004000000D000000000000000000    none       none       none    none   
+
+------------------------------------------------------------------------
+Em 中间相关密钥 boomerang switch 概率测试
+mode          : rkboomerang
+scope         : Em only with related keys
+rounds        : 2
+round offset  : 8
+input diff    : 2000000000000000 (Delta from upper output)
+output diff   : 0000000000000005 (nabla from lower input)
+delta key diff: 00200000020000000000000000000000 (key_schedule_milp_forward(diff_upper_trail[master_key_diff], r0=8))
+nabla key diff: 0000004000000D0000004000000D0000 (key_schedule_milp_backward(diff_lower_trail[ks_global_10], rm=2))
+common active : 2
+  state/key   : 2/0
+data size     : 2^(12)
+trial 0001: returned=208 total=2^(12) probability=0.05078125
+------------------------------------------------------------------------
+aggregate returned quartets     : 208
+aggregate total quartets        : 2^(12)
+estimated probability           : 0.05078125
+log2(probability)               : -4.299560
+
+------------------------------------------------------------------------
+整个相关密钥 boomerang 区分器实验概率
+formula       : p^2 * r * q^2
+p             : 0.0029296875
+r             : 0.05078125
+q             : 0.00390625
+p^2 * r * q^2: 6.65068000671e-12
+result        : 2^(-37.129635)
+Probability test time: 1.195588 seconds
+Results saved in results\8-2-6_636
