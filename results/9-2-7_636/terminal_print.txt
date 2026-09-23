@@ -1,0 +1,1281 @@
+========================================================================
+Search time limits
+single MILP optimize : 300 seconds
+global search       : 1200.0 seconds
+probability test     : excluded from global search time
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-10-10
+Read LP format model from file tmp\splight_h_rk_9_2_7_rk-ladder.lp
+Reading time = 0.01 seconds
+: 3747 rows, 2412 columns, 9436 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069425530.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069425598.lp
+Reading time = 0.03 seconds
+: 15021 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #1: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0001; lp_cleanup_deleted=2 lp_cleanup_bytes=1276730
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069429070.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069429129.lp
+Reading time = 0.03 seconds
+: 15024 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #2: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0002; lp_cleanup_deleted=2 lp_cleanup_bytes=1276738
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069432271.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069432336.lp
+Reading time = 0.03 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #3: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0003; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069435466.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069435524.lp
+Reading time = 0.03 seconds
+: 15012 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #4: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0004; lp_cleanup_deleted=2 lp_cleanup_bytes=1276706
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069438825.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069438889.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #5: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0005; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069442643.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069442704.lp
+Reading time = 0.03 seconds
+: 15018 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #6: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0006; lp_cleanup_deleted=2 lp_cleanup_bytes=1276722
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069446035.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069446092.lp
+Reading time = 0.06 seconds
+: 15024 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #7: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0007; lp_cleanup_deleted=2 lp_cleanup_bytes=1276738
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069449633.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069449691.lp
+Reading time = 0.03 seconds
+: 14970 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #8: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0008; lp_cleanup_deleted=2 lp_cleanup_bytes=1276594
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069453112.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069453171.lp
+Reading time = 0.03 seconds
+: 15021 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #9: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0009; lp_cleanup_deleted=2 lp_cleanup_bytes=1276730
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069456887.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069456946.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #10: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0010; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069460469.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069460527.lp
+Reading time = 0.02 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #11: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0011; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069465385.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069465450.lp
+Reading time = 0.03 seconds
+: 15006 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #12: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0012; lp_cleanup_deleted=2 lp_cleanup_bytes=1276690
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069470053.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069470114.lp
+Reading time = 0.03 seconds
+: 15012 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #13: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0013; lp_cleanup_deleted=2 lp_cleanup_bytes=1276706
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069474190.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069474249.lp
+Reading time = 0.03 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #14: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0014; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069478137.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069478197.lp
+Reading time = 0.03 seconds
+: 14982 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #15: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0015; lp_cleanup_deleted=2 lp_cleanup_bytes=1276626
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069482293.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069482353.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #16: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0016; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069486564.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069486630.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #17: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0017; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069493566.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069493625.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #18: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0018; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069498058.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069498120.lp
+Reading time = 0.03 seconds
+: 15039 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #19: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0019; lp_cleanup_deleted=2 lp_cleanup_bytes=1276778
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069502541.lp
+Reading time = 0.06 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069502607.lp
+Reading time = 0.03 seconds
+: 15006 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #20: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0020; lp_cleanup_deleted=2 lp_cleanup_bytes=1276690
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069506783.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069506844.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #21: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0021; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069511409.lp
+Reading time = 0.06 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069511471.lp
+Reading time = 0.03 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #22: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0022; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069515945.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069516010.lp
+Reading time = 0.03 seconds
+: 14982 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #23: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0023; lp_cleanup_deleted=2 lp_cleanup_bytes=1276626
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069521232.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069521293.lp
+Reading time = 0.03 seconds
+: 14973 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #24: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0024; lp_cleanup_deleted=2 lp_cleanup_bytes=1276602
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069525903.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069525974.lp
+Reading time = 0.03 seconds
+: 15021 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #25: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0025; lp_cleanup_deleted=2 lp_cleanup_bytes=1276730
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069531345.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069531410.lp
+Reading time = 0.03 seconds
+: 15021 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #26: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0026; lp_cleanup_deleted=2 lp_cleanup_bytes=1276730
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069536126.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069536187.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #27: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0027; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069540939.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069540998.lp
+Reading time = 0.03 seconds
+: 15012 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #28: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0028; lp_cleanup_deleted=2 lp_cleanup_bytes=1276706
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069545970.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069546032.lp
+Reading time = 0.03 seconds
+: 15000 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #29: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0029; lp_cleanup_deleted=2 lp_cleanup_bytes=1276674
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069550499.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069550563.lp
+Reading time = 0.03 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #30: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0030; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069555781.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069555846.lp
+Reading time = 0.03 seconds
+: 15033 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #31: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0031; lp_cleanup_deleted=2 lp_cleanup_bytes=1276762
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069560305.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069560367.lp
+Reading time = 0.03 seconds
+: 15021 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #32: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0032; lp_cleanup_deleted=2 lp_cleanup_bytes=1276730
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069565752.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069565815.lp
+Reading time = 0.03 seconds
+: 15024 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #33: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0033; lp_cleanup_deleted=2 lp_cleanup_bytes=1276738
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069570098.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069570160.lp
+Reading time = 0.03 seconds
+: 15021 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #34: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0034; lp_cleanup_deleted=2 lp_cleanup_bytes=1276730
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069574794.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069574859.lp
+Reading time = 0.03 seconds
+: 15027 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #35: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0035; lp_cleanup_deleted=2 lp_cleanup_bytes=1276746
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069579926.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069579988.lp
+Reading time = 0.03 seconds
+: 15012 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #36: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0036; lp_cleanup_deleted=2 lp_cleanup_bytes=1276706
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069584626.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069584696.lp
+Reading time = 0.04 seconds
+: 15000 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #37: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0037; lp_cleanup_deleted=2 lp_cleanup_bytes=1276674
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069589541.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069589602.lp
+Reading time = 0.03 seconds
+: 15006 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #38: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0038; lp_cleanup_deleted=2 lp_cleanup_bytes=1276690
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069594894.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069594957.lp
+Reading time = 0.03 seconds
+: 15030 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #39: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0039; lp_cleanup_deleted=2 lp_cleanup_bytes=1276754
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069600298.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069600361.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #40: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0040; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069604937.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069604996.lp
+Reading time = 0.02 seconds
+: 14991 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #41: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0041; lp_cleanup_deleted=2 lp_cleanup_bytes=1276650
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069610266.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069610331.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #42: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0042; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069615573.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069615636.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #43: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0043; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069620038.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069620104.lp
+Reading time = 0.03 seconds
+: 15027 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #44: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0044; lp_cleanup_deleted=2 lp_cleanup_bytes=1276746
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069625167.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069625234.lp
+Reading time = 0.03 seconds
+: 14979 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #45: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0045; lp_cleanup_deleted=2 lp_cleanup_bytes=1276618
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069629936.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069630000.lp
+Reading time = 0.03 seconds
+: 15018 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #46: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0046; lp_cleanup_deleted=2 lp_cleanup_bytes=1276722
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069635002.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069635064.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #47: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0047; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069640065.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069640128.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #48: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0048; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069645298.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069645369.lp
+Reading time = 0.03 seconds
+: 15033 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #49: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0049; lp_cleanup_deleted=2 lp_cleanup_bytes=1276762
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069650768.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069650829.lp
+Reading time = 0.03 seconds
+: 15018 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #50: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0050; lp_cleanup_deleted=2 lp_cleanup_bytes=1276722
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069656670.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069656737.lp
+Reading time = 0.03 seconds
+: 15021 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #51: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0051; lp_cleanup_deleted=2 lp_cleanup_bytes=1276730
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069661892.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069661953.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #52: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0052; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069667608.lp
+Reading time = 0.08 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069667669.lp
+Reading time = 0.03 seconds
+: 15012 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #53: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0053; lp_cleanup_deleted=2 lp_cleanup_bytes=1276706
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069672495.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069672560.lp
+Reading time = 0.03 seconds
+: 14976 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #54: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0054; lp_cleanup_deleted=2 lp_cleanup_bytes=1276610
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069677820.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069677890.lp
+Reading time = 0.03 seconds
+: 15012 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #55: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0055; lp_cleanup_deleted=2 lp_cleanup_bytes=1276706
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069685118.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069685187.lp
+Reading time = 0.03 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #56: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0056; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069692000.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069692068.lp
+Reading time = 0.03 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #57: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0057; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069698102.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069698178.lp
+Reading time = 0.03 seconds
+: 15027 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #58: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0058; lp_cleanup_deleted=2 lp_cleanup_bytes=1276746
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069704982.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069705043.lp
+Reading time = 0.03 seconds
+: 15018 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #59: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0059; lp_cleanup_deleted=2 lp_cleanup_bytes=1276722
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069711802.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069711863.lp
+Reading time = 0.03 seconds
+: 15018 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #60: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0060; lp_cleanup_deleted=2 lp_cleanup_bytes=1276722
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069717908.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069717967.lp
+Reading time = 0.03 seconds
+: 15006 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #61: upper=INFEASIBLE, lower=OPTIMAL; not counted in results, add raw_truncated_nogood_0061; lp_cleanup_deleted=2 lp_cleanup_bytes=1276690
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069723679.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069723738.lp
+Reading time = 0.03 seconds
+: 14991 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #62: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0062; lp_cleanup_deleted=2 lp_cleanup_bytes=1276650
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069730364.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069730429.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #63: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0063; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069735985.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069736050.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #64: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0064; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069741834.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069741896.lp
+Reading time = 0.03 seconds
+: 14982 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #65: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0065; lp_cleanup_deleted=2 lp_cleanup_bytes=1276626
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069748153.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069748213.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #66: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0066; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069754098.lp
+Reading time = 0.04 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069754158.lp
+Reading time = 0.03 seconds
+: 14973 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #67: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0067; lp_cleanup_deleted=2 lp_cleanup_bytes=1276602
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069761506.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069761568.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #68: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0068; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069768330.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069768392.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #69: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0069; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069775684.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069775746.lp
+Reading time = 0.03 seconds
+: 15018 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #70: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0070; lp_cleanup_deleted=2 lp_cleanup_bytes=1276722
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069782603.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069782662.lp
+Reading time = 0.03 seconds
+: 14982 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #71: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0071; lp_cleanup_deleted=2 lp_cleanup_bytes=1276626
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069788921.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069788985.lp
+Reading time = 0.03 seconds
+: 14979 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #72: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0072; lp_cleanup_deleted=2 lp_cleanup_bytes=1276618
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069795672.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069795734.lp
+Reading time = 0.03 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #73: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0073; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069802739.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069802800.lp
+Reading time = 0.03 seconds
+: 14982 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #74: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0074; lp_cleanup_deleted=2 lp_cleanup_bytes=1276626
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069811614.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069811677.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #75: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0075; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069817881.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069817944.lp
+Reading time = 0.03 seconds
+: 14982 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #76: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0076; lp_cleanup_deleted=2 lp_cleanup_bytes=1276626
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069826307.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069826370.lp
+Reading time = 0.03 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #77: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0077; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069832319.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069832383.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #78: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0078; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069840415.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069840479.lp
+Reading time = 0.03 seconds
+: 14997 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #79: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0079; lp_cleanup_deleted=2 lp_cleanup_bytes=1276666
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069848075.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069848139.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #80: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0080; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069856851.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069856915.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #81: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0081; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069864811.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069864873.lp
+Reading time = 0.03 seconds
+: 15018 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #82: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0082; lp_cleanup_deleted=2 lp_cleanup_bytes=1276722
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069872222.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069872284.lp
+Reading time = 0.03 seconds
+: 15012 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #83: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0083; lp_cleanup_deleted=2 lp_cleanup_bytes=1276706
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069878830.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069878895.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #84: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0084; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069886926.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069886988.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #85: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0085; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069896832.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069896894.lp
+Reading time = 0.03 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #86: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0086; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069903505.lp
+Reading time = 0.04 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069903569.lp
+Reading time = 0.05 seconds
+: 15012 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #87: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0087; lp_cleanup_deleted=2 lp_cleanup_bytes=1276706
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069911780.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069911842.lp
+Reading time = 0.03 seconds
+: 14982 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #88: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0088; lp_cleanup_deleted=2 lp_cleanup_bytes=1276626
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069918845.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069918904.lp
+Reading time = 0.03 seconds
+: 15018 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #89: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0089; lp_cleanup_deleted=2 lp_cleanup_bytes=1276722
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069926102.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069926165.lp
+Reading time = 0.03 seconds
+: 14991 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #90: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0090; lp_cleanup_deleted=2 lp_cleanup_bytes=1276650
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069932640.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069932702.lp
+Reading time = 0.03 seconds
+: 14988 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #91: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0091; lp_cleanup_deleted=2 lp_cleanup_bytes=1276642
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069940932.lp
+Reading time = 0.06 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069940996.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #92: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0092; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069947736.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069947811.lp
+Reading time = 0.03 seconds
+: 15018 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #93: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0093; lp_cleanup_deleted=2 lp_cleanup_bytes=1276722
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069954757.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069954821.lp
+Reading time = 0.03 seconds
+: 15000 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #94: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0094; lp_cleanup_deleted=2 lp_cleanup_bytes=1276674
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069963078.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069963144.lp
+Reading time = 0.03 seconds
+: 14997 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #95: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0095; lp_cleanup_deleted=2 lp_cleanup_bytes=1276666
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069970262.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069970328.lp
+Reading time = 0.03 seconds
+: 15000 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #96: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0096; lp_cleanup_deleted=2 lp_cleanup_bytes=1276674
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069978589.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069978651.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #97: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0097; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069986110.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069986173.lp
+Reading time = 0.03 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #98: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0098; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069993061.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069993124.lp
+Reading time = 0.03 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #99: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0099; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790069999953.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070000020.lp
+Reading time = 0.03 seconds
+: 15000 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #100: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0100; lp_cleanup_deleted=2 lp_cleanup_bytes=1276674
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070008606.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070008671.lp
+Reading time = 0.03 seconds
+: 14988 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #101: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0101; lp_cleanup_deleted=2 lp_cleanup_bytes=1276642
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070015709.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070015771.lp
+Reading time = 0.03 seconds
+: 15012 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #102: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0102; lp_cleanup_deleted=2 lp_cleanup_bytes=1276706
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070023034.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070023098.lp
+Reading time = 0.06 seconds
+: 14997 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #103: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0103; lp_cleanup_deleted=2 lp_cleanup_bytes=1276666
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070031012.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070031084.lp
+Reading time = 0.03 seconds
+: 14982 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #104: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0104; lp_cleanup_deleted=2 lp_cleanup_bytes=1276626
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070038541.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070038603.lp
+Reading time = 0.03 seconds
+: 14967 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #105: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0105; lp_cleanup_deleted=2 lp_cleanup_bytes=1276586
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070045818.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070045881.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #106: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0106; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070054200.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070054260.lp
+Reading time = 0.03 seconds
+: 15039 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #107: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0107; lp_cleanup_deleted=2 lp_cleanup_bytes=1276778
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070061905.lp
+Reading time = 0.06 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070061974.lp
+Reading time = 0.03 seconds
+: 15018 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #108: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0108; lp_cleanup_deleted=2 lp_cleanup_bytes=1276722
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070068578.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070068639.lp
+Reading time = 0.03 seconds
+: 14991 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #109: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0109; lp_cleanup_deleted=2 lp_cleanup_bytes=1276650
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070075425.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070075485.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #110: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0110; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070085925.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070085986.lp
+Reading time = 0.03 seconds
+: 14988 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #111: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0111; lp_cleanup_deleted=2 lp_cleanup_bytes=1276642
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070093601.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070093667.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #112: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0112; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070101521.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070101584.lp
+Reading time = 0.03 seconds
+: 14997 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #113: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0113; lp_cleanup_deleted=2 lp_cleanup_bytes=1276666
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070109840.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070109906.lp
+Reading time = 0.03 seconds
+: 15027 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #114: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0114; lp_cleanup_deleted=2 lp_cleanup_bytes=1276746
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070117066.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070117126.lp
+Reading time = 0.03 seconds
+: 14982 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #115: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0115; lp_cleanup_deleted=2 lp_cleanup_bytes=1276626
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070125248.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070125310.lp
+Reading time = 0.03 seconds
+: 14976 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #116: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0116; lp_cleanup_deleted=2 lp_cleanup_bytes=1276610
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070134369.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070134431.lp
+Reading time = 0.03 seconds
+: 15021 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #117: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0117; lp_cleanup_deleted=2 lp_cleanup_bytes=1276730
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070144771.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070144836.lp
+Reading time = 0.03 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #118: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0118; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070153032.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070153092.lp
+Reading time = 0.03 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #119: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0119; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070161699.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070161762.lp
+Reading time = 0.03 seconds
+: 14997 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #120: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0120; lp_cleanup_deleted=2 lp_cleanup_bytes=1276666
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070169331.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070169397.lp
+Reading time = 0.03 seconds
+: 15018 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #121: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0121; lp_cleanup_deleted=2 lp_cleanup_bytes=1276722
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070175735.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070175797.lp
+Reading time = 0.05 seconds
+: 15000 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #122: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0122; lp_cleanup_deleted=2 lp_cleanup_bytes=1276674
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070180896.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070180960.lp
+Reading time = 0.03 seconds
+: 15024 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #123: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0123; lp_cleanup_deleted=2 lp_cleanup_bytes=1276738
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070189114.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070189178.lp
+Reading time = 0.03 seconds
+: 14997 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #124: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0124; lp_cleanup_deleted=2 lp_cleanup_bytes=1276666
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070198159.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070198222.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #125: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0125; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070205033.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070205098.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #126: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0126; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070211105.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070211169.lp
+Reading time = 0.03 seconds
+: 15012 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #127: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0127; lp_cleanup_deleted=2 lp_cleanup_bytes=1276706
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070216998.lp
+Reading time = 0.07 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070217063.lp
+Reading time = 0.03 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #128: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0128; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070222742.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070222805.lp
+Reading time = 0.03 seconds
+: 15000 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #129: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0129; lp_cleanup_deleted=2 lp_cleanup_bytes=1276674
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070229786.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070229849.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #130: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0130; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070236726.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070236796.lp
+Reading time = 0.03 seconds
+: 14991 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #131: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0131; lp_cleanup_deleted=2 lp_cleanup_bytes=1276650
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070242843.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070242909.lp
+Reading time = 0.03 seconds
+: 14988 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #132: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0132; lp_cleanup_deleted=2 lp_cleanup_bytes=1276642
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070252202.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070252280.lp
+Reading time = 0.03 seconds
+: 15027 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #133: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0133; lp_cleanup_deleted=2 lp_cleanup_bytes=1276746
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070258912.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070259018.lp
+Reading time = 0.04 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #134: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0134; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070272166.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070272248.lp
+Reading time = 0.03 seconds
+: 14979 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #135: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0135; lp_cleanup_deleted=2 lp_cleanup_bytes=1276618
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070278301.lp
+Reading time = 0.07 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070278365.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #136: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0136; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070287218.lp
+Reading time = 0.04 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070287284.lp
+Reading time = 0.03 seconds
+: 15006 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #137: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0137; lp_cleanup_deleted=2 lp_cleanup_bytes=1276690
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070301417.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070301500.lp
+Reading time = 0.03 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #138: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0138; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070314515.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070314579.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #139: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0139; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070322983.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070323052.lp
+Reading time = 0.03 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #140: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0140; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070332033.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070332099.lp
+Reading time = 0.03 seconds
+: 14991 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #141: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0141; lp_cleanup_deleted=2 lp_cleanup_bytes=1276650
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070341854.lp
+Reading time = 0.05 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070341920.lp
+Reading time = 0.03 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #142: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0142; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070348083.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070348145.lp
+Reading time = 0.03 seconds
+: 15000 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #143: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0143; lp_cleanup_deleted=2 lp_cleanup_bytes=1276674
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070354730.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070354790.lp
+Reading time = 0.03 seconds
+: 14976 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #144: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0144; lp_cleanup_deleted=2 lp_cleanup_bytes=1276610
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070363329.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070363390.lp
+Reading time = 0.03 seconds
+: 14997 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #145: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0145; lp_cleanup_deleted=2 lp_cleanup_bytes=1276666
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070369391.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070369454.lp
+Reading time = 0.03 seconds
+: 15012 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #146: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0146; lp_cleanup_deleted=2 lp_cleanup_bytes=1276706
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070377952.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070378018.lp
+Reading time = 0.03 seconds
+: 14997 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #147: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0147; lp_cleanup_deleted=2 lp_cleanup_bytes=1276666
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070384367.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070384430.lp
+Reading time = 0.03 seconds
+: 15000 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #148: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0148; lp_cleanup_deleted=2 lp_cleanup_bytes=1276674
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070389705.lp
+Reading time = 0.02 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070389766.lp
+Reading time = 0.03 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #149: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0149; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070395614.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070395676.lp
+Reading time = 0.03 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #150: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0150; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070401330.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070401395.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #151: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0151; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070408275.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070408340.lp
+Reading time = 0.03 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #152: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0152; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070415499.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070415561.lp
+Reading time = 0.03 seconds
+: 14988 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #153: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0153; lp_cleanup_deleted=2 lp_cleanup_bytes=1276642
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070420777.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070420838.lp
+Reading time = 0.03 seconds
+: 15000 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #154: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0154; lp_cleanup_deleted=2 lp_cleanup_bytes=1276674
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070428987.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070429050.lp
+Reading time = 0.03 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #155: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0155; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070438016.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070438079.lp
+Reading time = 0.03 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #156: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0156; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070447374.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070447441.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #157: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0157; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070453265.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070453330.lp
+Reading time = 0.03 seconds
+: 15015 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #158: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0158; lp_cleanup_deleted=2 lp_cleanup_bytes=1276714
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070460833.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070460894.lp
+Reading time = 0.05 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #159: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0159; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070466623.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070466684.lp
+Reading time = 0.03 seconds
+: 15006 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #160: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0160; lp_cleanup_deleted=2 lp_cleanup_bytes=1276690
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070472405.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070472475.lp
+Reading time = 0.03 seconds
+: 15009 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #161: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0161; lp_cleanup_deleted=2 lp_cleanup_bytes=1276698
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070478858.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070478920.lp
+Reading time = 0.05 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #162: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0162; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070487872.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070487941.lp
+Reading time = 0.03 seconds
+: 14988 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #163: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0163; lp_cleanup_deleted=2 lp_cleanup_bytes=1276642
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070497738.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070497800.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #164: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0164; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070503942.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070504006.lp
+Reading time = 0.03 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #165: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0165; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070512125.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070512187.lp
+Reading time = 0.03 seconds
+: 14985 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #166: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0166; lp_cleanup_deleted=2 lp_cleanup_bytes=1276634
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070520559.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070520621.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #167: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0167; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070527401.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070527466.lp
+Reading time = 0.03 seconds
+: 14970 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #168: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0168; lp_cleanup_deleted=2 lp_cleanup_bytes=1276594
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070534340.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070534407.lp
+Reading time = 0.03 seconds
+: 15006 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #169: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0169; lp_cleanup_deleted=2 lp_cleanup_bytes=1276690
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070542780.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070542843.lp
+Reading time = 0.03 seconds
+: 15012 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #170: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0170; lp_cleanup_deleted=2 lp_cleanup_bytes=1276706
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070548558.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070548620.lp
+Reading time = 0.03 seconds
+: 15006 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #171: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0171; lp_cleanup_deleted=2 lp_cleanup_bytes=1276690
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070554674.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070554740.lp
+Reading time = 0.03 seconds
+: 15003 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #172: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0172; lp_cleanup_deleted=2 lp_cleanup_bytes=1276682
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070561918.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070561983.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #173: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0173; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070568162.lp
+Reading time = 0.04 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070568228.lp
+Reading time = 0.03 seconds
+: 14991 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #174: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0174; lp_cleanup_deleted=2 lp_cleanup_bytes=1276650
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070575504.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070575567.lp
+Reading time = 0.03 seconds
+: 14991 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #175: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0175; lp_cleanup_deleted=2 lp_cleanup_bytes=1276650
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070581341.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070581404.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #176: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0176; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070588329.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070588390.lp
+Reading time = 0.03 seconds
+: 14988 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #177: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0177; lp_cleanup_deleted=2 lp_cleanup_bytes=1276642
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070595408.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070595470.lp
+Reading time = 0.03 seconds
+: 15018 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #178: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0178; lp_cleanup_deleted=2 lp_cleanup_bytes=1276722
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070601548.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070601613.lp
+Reading time = 0.03 seconds
+: 14994 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #179: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0179; lp_cleanup_deleted=2 lp_cleanup_bytes=1276658
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070607628.lp
+Reading time = 0.03 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070607689.lp
+Reading time = 0.03 seconds
+: 14991 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #180: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0180; lp_cleanup_deleted=2 lp_cleanup_bytes=1276650
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070616286.lp
+Reading time = 0.04 seconds
+: 13352 rows, 3918 columns, 47526 nonzeros
+Read LP format model from file tmp\boomerang\splight_h_rkdiff_32716_1790070616347.lp
+Reading time = 0.03 seconds
+: 15000 rows, 4652 columns, 48908 nonzeros
+Raw truncated candidate #181: upper=INFEASIBLE, lower=INFEASIBLE; not counted in results, add raw_truncated_nogood_0181; lp_cleanup_deleted=2 lp_cleanup_bytes=1276674
+Instantiation LP cleanup: registered=364 deleted=362 deleted_bytes=231079154 retained=2 refused=0 failures=0
+Exact two-level search stopped with result: GLOBAL_TIME_LIMIT
+Total solving time: 1200.176076 seconds
+Results saved in results\9-2-7_636
