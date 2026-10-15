@@ -533,9 +533,9 @@ def evaluate_rk_em_boomerang_probability(result, seed):
         delta_source = f"diff_upper_trail[x_{r0}]"
         delta_key_source = f"key_schedule_milp_forward(diff_upper_trail[master_key_diff], r0={r0})"
     if lower is None:
-        nabla = mask_to_concrete_hex(result["lower_trail"]["x_0"])
+        nabla = mask_to_concrete_hex(result["lower_trail"][f"x_{rm}"])
         lower_master_key_diff = mask_to_concrete_hex(result["lower_trail"].get("mk", "0" * KEY_HEX_LEN))
-        nabla_source = "lower_trail[x_0] active mask mapped to concrete 0x1"
+        nabla_source = f"lower_trail[x_{rm}] active mask mapped to concrete 0x1"
         nabla_key_source = f"key_schedule_milp_backward(lower_trail[mk], rm={rm})"
     else:
         nabla = lower["x_0"]

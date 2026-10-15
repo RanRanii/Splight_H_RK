@@ -243,7 +243,7 @@ def mermaid_distinguisher(result):
     dl = result.get("diff_lower_trail") or {}
     middle = result.get("middle_part") or {}
     delta = du.get(f"x_{r0}") or mask_to_concrete_hex(result["upper_trail"].get(f"x_{r0}", ""))
-    nabla = dl.get("x_0") or mask_to_concrete_hex(result["lower_trail"].get("x_0", ""))
+    nabla = dl.get("x_0") or mask_to_concrete_hex(result["lower_trail"].get(f"x_{rm}", ""))
     input_diff = du.get("x_0") or delta
     output_diff = dl.get(f"x_{r1}") or nabla
     return "\n".join([

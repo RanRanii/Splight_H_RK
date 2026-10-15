@@ -386,6 +386,19 @@ seed                  = 当天日期 YYYYMMDD
 - `nabla_keydiff_backward.*`：lower key state 的反向 KeyDiff 推导；
 - `aligned_key_schedule.*`：按全局轮对齐后的 upper/lower key schedule 表。
 
+### 11.1 Concrete 与 truncated fallback 的使用边界
+
+概率评估器根据 `diff_upper_trail` 和 `diff_lower_trail` 是否存在自动选择输入。外部段轮数大于 0 且具体差分实例化成功时，使用 concrete characteristic；从结果目录恢复时，即使走 formal result fallback，只要正式 JSON 中仍包含 concrete upper/lower trail，概率评估依然属于 concrete 分支。
+
+只有相应 concrete trail 缺失时才进入 truncated fallback。该分支从截断活动掩码构造一个代表值：upper 的 Em 输入取 `upper_trail[x_r0]`，lower 的 Em 输出取 `lower_trail[x_rm]`，分别对应全局状态边界 $r_0$ 和 $r_0+r_m$；每个活动 nibble 固定映射为 `0x1`。
+
+当前暂时保留 truncated fallback，但须按以下限制解释其结果：
+
+- 固定 `0x1` 只保持边界的零/非零活动位置，不保证满足完整截断 characteristic 中的 S 盒、线性层与 XOR 消去关系；
+- 该实验测量的是一个人为指定的具体代表差分，不能代表对所有兼容具体差分求和或平均后的截断差分概率；
+- lower 密钥 fallback 当前仍以 `lower_trail[mk]` 的活动掩码构造具体值并执行反向 KeyDiff，其密钥状态不保证与同一个 Em 边界严格对应；
+- 因此，truncated fallback 输出仅用于诊断和兼容旧结果，不作为正式概率证据。正式概率结论应使用完整 concrete upper/lower trail；本限制不影响已经进入 concrete 分支的实验结果。
+
 ## 12. `output/`：结果表示
 
 | 文件 / 目录 | 作用 |
